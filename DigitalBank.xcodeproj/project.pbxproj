@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25BCB8B82C46C0830097EDC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BCB8B72C46C0830097EDC0 /* AppDelegate.swift */; };
+		25BCB8BA2C46C0830097EDC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BCB8B92C46C0830097EDC0 /* SceneDelegate.swift */; };
+		25BCB8BC2C46C0830097EDC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BCB8BB2C46C0830097EDC0 /* ViewController.swift */; };
+		25BCB8C12C46C0870097EDC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25BCB8C02C46C0870097EDC0 /* Assets.xcassets */; };
+		25BCB8C42C46C0870097EDC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25BCB8C22C46C0870097EDC0 /* LaunchScreen.storyboard */; };
+		25BCB8CF2C46C0880097EDC0 /* DigitalBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BCB8CE2C46C0880097EDC0 /* DigitalBankTests.swift */; };
+		25BCB8D92C46C0880097EDC0 /* DigitalBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BCB8D82C46C0880097EDC0 /* DigitalBankUITests.swift */; };
+		25BCB8DB2C46C0880097EDC0 /* DigitalBankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BCB8DA2C46C0880097EDC0 /* DigitalBankUITestsLaunchTests.swift */; };
+		4FEF8E4F37A8D8CF0A237CA6 /* Pods_DigitalBankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9727C168327C548A49499896 /* Pods_DigitalBankTests.framework */; };
+		B41B0E63763769673BECED96 /* Pods_DigitalBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2621561CE75FBB0FD2DF3545 /* Pods_DigitalBank.framework */; };
+		ED1EEE2E10CF1D58D78D95EB /* Pods_DigitalBank_DigitalBankUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3CA22CF25B8E15B8DF8915 /* Pods_DigitalBank_DigitalBankUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25BCB8CB2C46C0880097EDC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25BCB8AC2C46C0820097EDC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25BCB8B32C46C0830097EDC0;
+			remoteInfo = DigitalBank;
+		};
+		25BCB8D52C46C0880097EDC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25BCB8AC2C46C0820097EDC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25BCB8B32C46C0830097EDC0;
+			remoteInfo = DigitalBank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E9EFED9C95E3C74FCEA582D /* Pods-DigitalBank-DigitalBankUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalBank-DigitalBankUITests.debug.xcconfig"; path = "Target Support Files/Pods-DigitalBank-DigitalBankUITests/Pods-DigitalBank-DigitalBankUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D7BB9E4754D3CC03E1BFF60 /* Pods-DigitalBank-DigitalBankUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalBank-DigitalBankUITests.release.xcconfig"; path = "Target Support Files/Pods-DigitalBank-DigitalBankUITests/Pods-DigitalBank-DigitalBankUITests.release.xcconfig"; sourceTree = "<group>"; };
+		25BCB8B42C46C0830097EDC0 /* DigitalBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25BCB8B72C46C0830097EDC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25BCB8B92C46C0830097EDC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		25BCB8BB2C46C0830097EDC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25BCB8C02C46C0870097EDC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25BCB8C32C46C0870097EDC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25BCB8C52C46C0870097EDC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25BCB8CA2C46C0880097EDC0 /* DigitalBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25BCB8CE2C46C0880097EDC0 /* DigitalBankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalBankTests.swift; sourceTree = "<group>"; };
+		25BCB8D42C46C0880097EDC0 /* DigitalBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25BCB8D82C46C0880097EDC0 /* DigitalBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalBankUITests.swift; sourceTree = "<group>"; };
+		25BCB8DA2C46C0880097EDC0 /* DigitalBankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalBankUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2621561CE75FBB0FD2DF3545 /* Pods_DigitalBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigitalBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3038CE8DB9C2F47EDBBCACC2 /* Pods-DigitalBankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalBankTests.release.xcconfig"; path = "Target Support Files/Pods-DigitalBankTests/Pods-DigitalBankTests.release.xcconfig"; sourceTree = "<group>"; };
+		4B3CA22CF25B8E15B8DF8915 /* Pods_DigitalBank_DigitalBankUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigitalBank_DigitalBankUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		768E8F2C3F65AAC542045FD7 /* Pods-DigitalBankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalBankTests.debug.xcconfig"; path = "Target Support Files/Pods-DigitalBankTests/Pods-DigitalBankTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9727C168327C548A49499896 /* Pods_DigitalBankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigitalBankTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C312B314838894D007D2C96F /* Pods-DigitalBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalBank.release.xcconfig"; path = "Target Support Files/Pods-DigitalBank/Pods-DigitalBank.release.xcconfig"; sourceTree = "<group>"; };
+		D5A6C3638AF5AEC88F5A991B /* Pods-DigitalBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalBank.debug.xcconfig"; path = "Target Support Files/Pods-DigitalBank/Pods-DigitalBank.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25BCB8B12C46C0830097EDC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41B0E63763769673BECED96 /* Pods_DigitalBank.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BCB8C72C46C0880097EDC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEF8E4F37A8D8CF0A237CA6 /* Pods_DigitalBankTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BCB8D12C46C0880097EDC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1EEE2E10CF1D58D78D95EB /* Pods_DigitalBank_DigitalBankUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		221D839202D42FCF60F5D079 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5A6C3638AF5AEC88F5A991B /* Pods-DigitalBank.debug.xcconfig */,
+				C312B314838894D007D2C96F /* Pods-DigitalBank.release.xcconfig */,
+				0E9EFED9C95E3C74FCEA582D /* Pods-DigitalBank-DigitalBankUITests.debug.xcconfig */,
+				1D7BB9E4754D3CC03E1BFF60 /* Pods-DigitalBank-DigitalBankUITests.release.xcconfig */,
+				768E8F2C3F65AAC542045FD7 /* Pods-DigitalBankTests.debug.xcconfig */,
+				3038CE8DB9C2F47EDBBCACC2 /* Pods-DigitalBankTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		25BCB8AB2C46C0820097EDC0 = {
+			isa = PBXGroup;
+			children = (
+				25BCB8B62C46C0830097EDC0 /* DigitalBank */,
+				25BCB8CD2C46C0880097EDC0 /* DigitalBankTests */,
+				25BCB8D72C46C0880097EDC0 /* DigitalBankUITests */,
+				25BCB8B52C46C0830097EDC0 /* Products */,
+				221D839202D42FCF60F5D079 /* Pods */,
+				2D9D8B88AFADE12D4A33A25B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		25BCB8B52C46C0830097EDC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25BCB8B42C46C0830097EDC0 /* DigitalBank.app */,
+				25BCB8CA2C46C0880097EDC0 /* DigitalBankTests.xctest */,
+				25BCB8D42C46C0880097EDC0 /* DigitalBankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25BCB8B62C46C0830097EDC0 /* DigitalBank */ = {
+			isa = PBXGroup;
+			children = (
+				25BCB8B72C46C0830097EDC0 /* AppDelegate.swift */,
+				25BCB8B92C46C0830097EDC0 /* SceneDelegate.swift */,
+				25BCB8BB2C46C0830097EDC0 /* ViewController.swift */,
+				25BCB8C02C46C0870097EDC0 /* Assets.xcassets */,
+				25BCB8C22C46C0870097EDC0 /* LaunchScreen.storyboard */,
+				25BCB8C52C46C0870097EDC0 /* Info.plist */,
+			);
+			path = DigitalBank;
+			sourceTree = "<group>";
+		};
+		25BCB8CD2C46C0880097EDC0 /* DigitalBankTests */ = {
+			isa = PBXGroup;
+			children = (
+				25BCB8CE2C46C0880097EDC0 /* DigitalBankTests.swift */,
+			);
+			path = DigitalBankTests;
+			sourceTree = "<group>";
+		};
+		25BCB8D72C46C0880097EDC0 /* DigitalBankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				25BCB8D82C46C0880097EDC0 /* DigitalBankUITests.swift */,
+				25BCB8DA2C46C0880097EDC0 /* DigitalBankUITestsLaunchTests.swift */,
+			);
+			path = DigitalBankUITests;
+			sourceTree = "<group>";
+		};
+		2D9D8B88AFADE12D4A33A25B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2621561CE75FBB0FD2DF3545 /* Pods_DigitalBank.framework */,
+				4B3CA22CF25B8E15B8DF8915 /* Pods_DigitalBank_DigitalBankUITests.framework */,
+				9727C168327C548A49499896 /* Pods_DigitalBankTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25BCB8B32C46C0830097EDC0 /* DigitalBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25BCB8DE2C46C0880097EDC0 /* Build configuration list for PBXNativeTarget "DigitalBank" */;
+			buildPhases = (
+				A9A719F5586AC196A04AC490 /* [CP] Check Pods Manifest.lock */,
+				25BCB8B02C46C0830097EDC0 /* Sources */,
+				25BCB8B12C46C0830097EDC0 /* Frameworks */,
+				25BCB8B22C46C0830097EDC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DigitalBank;
+			productName = DigitalBank;
+			productReference = 25BCB8B42C46C0830097EDC0 /* DigitalBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25BCB8C92C46C0880097EDC0 /* DigitalBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25BCB8E12C46C0880097EDC0 /* Build configuration list for PBXNativeTarget "DigitalBankTests" */;
+			buildPhases = (
+				83DE2A0CCD0C4C8D76CA7198 /* [CP] Check Pods Manifest.lock */,
+				25BCB8C62C46C0880097EDC0 /* Sources */,
+				25BCB8C72C46C0880097EDC0 /* Frameworks */,
+				25BCB8C82C46C0880097EDC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25BCB8CC2C46C0880097EDC0 /* PBXTargetDependency */,
+			);
+			name = DigitalBankTests;
+			productName = DigitalBankTests;
+			productReference = 25BCB8CA2C46C0880097EDC0 /* DigitalBankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25BCB8D32C46C0880097EDC0 /* DigitalBankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25BCB8E42C46C0880097EDC0 /* Build configuration list for PBXNativeTarget "DigitalBankUITests" */;
+			buildPhases = (
+				7A225735540DC6B5C91812F5 /* [CP] Check Pods Manifest.lock */,
+				25BCB8D02C46C0880097EDC0 /* Sources */,
+				25BCB8D12C46C0880097EDC0 /* Frameworks */,
+				25BCB8D22C46C0880097EDC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25BCB8D62C46C0880097EDC0 /* PBXTargetDependency */,
+			);
+			name = DigitalBankUITests;
+			productName = DigitalBankUITests;
+			productReference = 25BCB8D42C46C0880097EDC0 /* DigitalBankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25BCB8AC2C46C0820097EDC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					25BCB8B32C46C0830097EDC0 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					25BCB8C92C46C0880097EDC0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 25BCB8B32C46C0830097EDC0;
+					};
+					25BCB8D32C46C0880097EDC0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 25BCB8B32C46C0830097EDC0;
+					};
+				};
+			};
+			buildConfigurationList = 25BCB8AF2C46C0820097EDC0 /* Build configuration list for PBXProject "DigitalBank" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25BCB8AB2C46C0820097EDC0;
+			productRefGroup = 25BCB8B52C46C0830097EDC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25BCB8B32C46C0830097EDC0 /* DigitalBank */,
+				25BCB8C92C46C0880097EDC0 /* DigitalBankTests */,
+				25BCB8D32C46C0880097EDC0 /* DigitalBankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25BCB8B22C46C0830097EDC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BCB8C42C46C0870097EDC0 /* LaunchScreen.storyboard in Resources */,
+				25BCB8C12C46C0870097EDC0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BCB8C82C46C0880097EDC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BCB8D22C46C0880097EDC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A225735540DC6B5C91812F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DigitalBank-DigitalBankUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83DE2A0CCD0C4C8D76CA7198 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DigitalBankTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9A719F5586AC196A04AC490 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DigitalBank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25BCB8B02C46C0830097EDC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BCB8BC2C46C0830097EDC0 /* ViewController.swift in Sources */,
+				25BCB8B82C46C0830097EDC0 /* AppDelegate.swift in Sources */,
+				25BCB8BA2C46C0830097EDC0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BCB8C62C46C0880097EDC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BCB8CF2C46C0880097EDC0 /* DigitalBankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BCB8D02C46C0880097EDC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BCB8D92C46C0880097EDC0 /* DigitalBankUITests.swift in Sources */,
+				25BCB8DB2C46C0880097EDC0 /* DigitalBankUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25BCB8CC2C46C0880097EDC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25BCB8B32C46C0830097EDC0 /* DigitalBank */;
+			targetProxy = 25BCB8CB2C46C0880097EDC0 /* PBXContainerItemProxy */;
+		};
+		25BCB8D62C46C0880097EDC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25BCB8B32C46C0830097EDC0 /* DigitalBank */;
+			targetProxy = 25BCB8D52C46C0880097EDC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25BCB8C22C46C0870097EDC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25BCB8C32C46C0870097EDC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25BCB8DC2C46C0880097EDC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25BCB8DD2C46C0880097EDC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25BCB8DF2C46C0880097EDC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5A6C3638AF5AEC88F5A991B /* Pods-DigitalBank.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DigitalBank/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Neo.DigitalBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		25BCB8E02C46C0880097EDC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C312B314838894D007D2C96F /* Pods-DigitalBank.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DigitalBank/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Neo.DigitalBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		25BCB8E22C46C0880097EDC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 768E8F2C3F65AAC542045FD7 /* Pods-DigitalBankTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Neo.DigitalBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitalBank.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DigitalBank";
+			};
+			name = Debug;
+		};
+		25BCB8E32C46C0880097EDC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3038CE8DB9C2F47EDBBCACC2 /* Pods-DigitalBankTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Neo.DigitalBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitalBank.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DigitalBank";
+			};
+			name = Release;
+		};
+		25BCB8E52C46C0880097EDC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E9EFED9C95E3C74FCEA582D /* Pods-DigitalBank-DigitalBankUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Neo.DigitalBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DigitalBank;
+			};
+			name = Debug;
+		};
+		25BCB8E62C46C0880097EDC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D7BB9E4754D3CC03E1BFF60 /* Pods-DigitalBank-DigitalBankUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Neo.DigitalBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DigitalBank;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25BCB8AF2C46C0820097EDC0 /* Build configuration list for PBXProject "DigitalBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BCB8DC2C46C0880097EDC0 /* Debug */,
+				25BCB8DD2C46C0880097EDC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25BCB8DE2C46C0880097EDC0 /* Build configuration list for PBXNativeTarget "DigitalBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BCB8DF2C46C0880097EDC0 /* Debug */,
+				25BCB8E02C46C0880097EDC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25BCB8E12C46C0880097EDC0 /* Build configuration list for PBXNativeTarget "DigitalBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BCB8E22C46C0880097EDC0 /* Debug */,
+				25BCB8E32C46C0880097EDC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25BCB8E42C46C0880097EDC0 /* Build configuration list for PBXNativeTarget "DigitalBankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BCB8E52C46C0880097EDC0 /* Debug */,
+				25BCB8E62C46C0880097EDC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25BCB8AC2C46C0820097EDC0 /* Project object */;
+}
