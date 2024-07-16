@@ -1,0 +1,17 @@
+# Xcode
+.DS_Store
+*/build/
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+DerivedData
+
+# CocoaPods
+Pods/
+Podfile.lock
+.project.xcworkspace/
+
