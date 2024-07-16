@@ -16,6 +16,7 @@
 		25BCB8D92C46C0880097EDC0 /* DigitalBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BCB8D82C46C0880097EDC0 /* DigitalBankUITests.swift */; };
 		25BCB8DB2C46C0880097EDC0 /* DigitalBankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BCB8DA2C46C0880097EDC0 /* DigitalBankUITestsLaunchTests.swift */; };
 		25BCB8EA2C46CFB60097EDC0 /* ProductListWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BCB8E92C46CFB60097EDC0 /* ProductListWireFrame.swift */; };
+		25BCB8F12C46D9A70097EDC0 /* UIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BCB8F02C46D9A70097EDC0 /* UIColors.swift */; };
 		4FEF8E4F37A8D8CF0A237CA6 /* Pods_DigitalBankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9727C168327C548A49499896 /* Pods_DigitalBankTests.framework */; };
 		B41B0E63763769673BECED96 /* Pods_DigitalBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2621561CE75FBB0FD2DF3545 /* Pods_DigitalBank.framework */; };
 		ED1EEE2E10CF1D58D78D95EB /* Pods_DigitalBank_DigitalBankUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3CA22CF25B8E15B8DF8915 /* Pods_DigitalBank_DigitalBankUITests.framework */; };
@@ -54,6 +55,7 @@
 		25BCB8D82C46C0880097EDC0 /* DigitalBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalBankUITests.swift; sourceTree = "<group>"; };
 		25BCB8DA2C46C0880097EDC0 /* DigitalBankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalBankUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		25BCB8E92C46CFB60097EDC0 /* ProductListWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListWireFrame.swift; sourceTree = "<group>"; };
+		25BCB8F02C46D9A70097EDC0 /* UIColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColors.swift; sourceTree = "<group>"; };
 		2621561CE75FBB0FD2DF3545 /* Pods_DigitalBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigitalBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3038CE8DB9C2F47EDBBCACC2 /* Pods-DigitalBankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalBankTests.release.xcconfig"; path = "Target Support Files/Pods-DigitalBankTests/Pods-DigitalBankTests.release.xcconfig"; sourceTree = "<group>"; };
 		4B3CA22CF25B8E15B8DF8915 /* Pods_DigitalBank_DigitalBankUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigitalBank_DigitalBankUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +131,7 @@
 		25BCB8B62C46C0830097EDC0 /* DigitalBank */ = {
 			isa = PBXGroup;
 			children = (
+				25BCB8EF2C46D9810097EDC0 /* Extensions */,
 				25BCB8EE2C46D63A0097EDC0 /* Service */,
 				25BCB8ED2C46D62F0097EDC0 /* Repository */,
 				25BCB8EC2C46D6250097EDC0 /* Models */,
@@ -203,6 +206,14 @@
 			children = (
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		25BCB8EF2C46D9810097EDC0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				25BCB8F02C46D9A70097EDC0 /* UIColors.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		2D9D8B88AFADE12D4A33A25B /* Frameworks */ = {
@@ -421,6 +432,7 @@
 				25BCB8BC2C46C0830097EDC0 /* ProductListViewController.swift in Sources */,
 				25BCB8B82C46C0830097EDC0 /* AppDelegate.swift in Sources */,
 				25BCB8BA2C46C0830097EDC0 /* SceneDelegate.swift in Sources */,
+				25BCB8F12C46D9A70097EDC0 /* UIColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
