@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25A6BEE02C47F47900B31CBC /* CustomChips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A6BEDF2C47F47900B31CBC /* CustomChips.swift */; };
 		25BCB8B82C46C0830097EDC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BCB8B72C46C0830097EDC0 /* AppDelegate.swift */; };
 		25BCB8BA2C46C0830097EDC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BCB8B92C46C0830097EDC0 /* SceneDelegate.swift */; };
 		25BCB8BC2C46C0830097EDC0 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BCB8BB2C46C0830097EDC0 /* ProductListViewController.swift */; };
@@ -17,6 +18,8 @@
 		25BCB8DB2C46C0880097EDC0 /* DigitalBankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BCB8DA2C46C0880097EDC0 /* DigitalBankUITestsLaunchTests.swift */; };
 		25BCB8EA2C46CFB60097EDC0 /* ProductListWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BCB8E92C46CFB60097EDC0 /* ProductListWireFrame.swift */; };
 		25BCB8F12C46D9A70097EDC0 /* UIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BCB8F02C46D9A70097EDC0 /* UIColors.swift */; };
+		25BCB8F42C46DF940097EDC0 /* ProductListItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BCB8F32C46DF940097EDC0 /* ProductListItemTableViewCell.swift */; };
+		25BCB8F62C46E9750097EDC0 /* ProductListViewLayoutSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BCB8F52C46E9750097EDC0 /* ProductListViewLayoutSetup.swift */; };
 		4FEF8E4F37A8D8CF0A237CA6 /* Pods_DigitalBankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9727C168327C548A49499896 /* Pods_DigitalBankTests.framework */; };
 		B41B0E63763769673BECED96 /* Pods_DigitalBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2621561CE75FBB0FD2DF3545 /* Pods_DigitalBank.framework */; };
 		ED1EEE2E10CF1D58D78D95EB /* Pods_DigitalBank_DigitalBankUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3CA22CF25B8E15B8DF8915 /* Pods_DigitalBank_DigitalBankUITests.framework */; };
@@ -42,6 +45,7 @@
 /* Begin PBXFileReference section */
 		0E9EFED9C95E3C74FCEA582D /* Pods-DigitalBank-DigitalBankUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalBank-DigitalBankUITests.debug.xcconfig"; path = "Target Support Files/Pods-DigitalBank-DigitalBankUITests/Pods-DigitalBank-DigitalBankUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1D7BB9E4754D3CC03E1BFF60 /* Pods-DigitalBank-DigitalBankUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalBank-DigitalBankUITests.release.xcconfig"; path = "Target Support Files/Pods-DigitalBank-DigitalBankUITests/Pods-DigitalBank-DigitalBankUITests.release.xcconfig"; sourceTree = "<group>"; };
+		25A6BEDF2C47F47900B31CBC /* CustomChips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChips.swift; sourceTree = "<group>"; };
 		25BCB8B42C46C0830097EDC0 /* DigitalBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25BCB8B72C46C0830097EDC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25BCB8B92C46C0830097EDC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 		25BCB8DA2C46C0880097EDC0 /* DigitalBankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalBankUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		25BCB8E92C46CFB60097EDC0 /* ProductListWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListWireFrame.swift; sourceTree = "<group>"; };
 		25BCB8F02C46D9A70097EDC0 /* UIColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColors.swift; sourceTree = "<group>"; };
+		25BCB8F32C46DF940097EDC0 /* ProductListItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListItemTableViewCell.swift; sourceTree = "<group>"; };
+		25BCB8F52C46E9750097EDC0 /* ProductListViewLayoutSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewLayoutSetup.swift; sourceTree = "<group>"; };
 		2621561CE75FBB0FD2DF3545 /* Pods_DigitalBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigitalBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3038CE8DB9C2F47EDBBCACC2 /* Pods-DigitalBankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalBankTests.release.xcconfig"; path = "Target Support Files/Pods-DigitalBankTests/Pods-DigitalBankTests.release.xcconfig"; sourceTree = "<group>"; };
 		4B3CA22CF25B8E15B8DF8915 /* Pods_DigitalBank_DigitalBankUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigitalBank_DigitalBankUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +110,14 @@
 				3038CE8DB9C2F47EDBBCACC2 /* Pods-DigitalBankTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		25A6BEDE2C47F45700B31CBC /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				25A6BEDF2C47F47900B31CBC /* CustomChips.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 		25BCB8AB2C46C0820097EDC0 = {
@@ -166,6 +180,7 @@
 		25BCB8E72C46CF770097EDC0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				25A6BEDE2C47F45700B31CBC /* Shared */,
 				25BCB8E82C46CF870097EDC0 /* ProductList */,
 			);
 			path = Views;
@@ -174,8 +189,10 @@
 		25BCB8E82C46CF870097EDC0 /* ProductList */ = {
 			isa = PBXGroup;
 			children = (
+				25BCB8F22C46DF5D0097EDC0 /* cells */,
 				25BCB8BB2C46C0830097EDC0 /* ProductListViewController.swift */,
 				25BCB8E92C46CFB60097EDC0 /* ProductListWireFrame.swift */,
+				25BCB8F52C46E9750097EDC0 /* ProductListViewLayoutSetup.swift */,
 			);
 			path = ProductList;
 			sourceTree = "<group>";
@@ -214,6 +231,14 @@
 				25BCB8F02C46D9A70097EDC0 /* UIColors.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		25BCB8F22C46DF5D0097EDC0 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				25BCB8F32C46DF940097EDC0 /* ProductListItemTableViewCell.swift */,
+			);
+			path = cells;
 			sourceTree = "<group>";
 		};
 		2D9D8B88AFADE12D4A33A25B /* Frameworks */ = {
@@ -432,6 +457,9 @@
 				25BCB8BC2C46C0830097EDC0 /* ProductListViewController.swift in Sources */,
 				25BCB8B82C46C0830097EDC0 /* AppDelegate.swift in Sources */,
 				25BCB8BA2C46C0830097EDC0 /* SceneDelegate.swift in Sources */,
+				25BCB8F42C46DF940097EDC0 /* ProductListItemTableViewCell.swift in Sources */,
+				25BCB8F62C46E9750097EDC0 /* ProductListViewLayoutSetup.swift in Sources */,
+				25A6BEE02C47F47900B31CBC /* CustomChips.swift in Sources */,
 				25BCB8F12C46D9A70097EDC0 /* UIColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,4 +13,5 @@ extension UIColor {
     static let titleColor = UIColor(named: "TitleColor")
     static let subtitleColor = UIColor(named: "SubtitleColor")
     static let linkColor = UIColor(named: "LinkColor")
+    static let infoColor = UIColor(named: "InfoColor")
 }

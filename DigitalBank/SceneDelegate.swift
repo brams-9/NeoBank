@@ -17,7 +17,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(windowScene: windowScene)
         let vc = ProductListWireFrame().getViewController()
         let navigationController = UINavigationController(rootViewController: vc)
-        navigationController.navigationBar.barTintColor = .lightGray
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
     }
