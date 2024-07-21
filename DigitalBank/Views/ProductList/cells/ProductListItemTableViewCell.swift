@@ -51,17 +51,6 @@ class ProductListItemTableViewCell: UITableViewCell {
     
     lazy var rateLabel: UILabel = {
         let rateLabel = UILabel()
-        let attributedText = NSMutableAttributedString()
-
-        let largeFont = UIFont.boldSystemFont(ofSize: 16)
-        let rateValueText = NSAttributedString(string: "1,5% ", attributes: [NSAttributedString.Key.font: largeFont])
-        attributedText.append(rateValueText)
-        
-        let smallFont = UIFont.boldSystemFont(ofSize: 12)
-        let perAnnumText = NSAttributedString(string: "p.a", attributes: [NSAttributedString.Key.font: smallFont])
-        attributedText.append(perAnnumText)
-
-        rateLabel.attributedText = attributedText
         rateLabel.textColor = UIColor.growthColor
 
         rateLabel.translatesAutoresizingMaskIntoConstraints = false
@@ -146,6 +135,30 @@ class ProductListItemTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
+    }
+    
+    func setData(productItemData: ProductItemModel) {
+        productNameLabel.text = productItemData.productName
+        popularBadgeView.isHidden = !productItemData.isPopular
+        marketingPointsLabel.text = productItemData.markertingOptions ?? ""
+        setupRateLabelAttributedText(rate: productItemData.rate)
+        
+        let amountLabelFormatted: String = "\(productItemData.startingAmount)".formattedWithLocalUnits() ?? "0"
+        startingAmountLabel.text = "Rp. \(amountLabelFormatted)"
+    }
+    
+    private func setupRateLabelAttributedText(rate: Float) {
+        let attributedText = NSMutableAttributedString()
+
+        let largeFont = UIFont.boldSystemFont(ofSize: 16)
+        let rateValueText = NSAttributedString(string: "\(rate)% ", attributes: [NSAttributedString.Key.font: largeFont])
+        attributedText.append(rateValueText)
+        
+        let smallFont = UIFont.boldSystemFont(ofSize: 12)
+        let perAnnumText = NSAttributedString(string: "p.a", attributes: [NSAttributedString.Key.font: smallFont])
+        attributedText.append(perAnnumText)
+
+        rateLabel.attributedText = attributedText
     }
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {

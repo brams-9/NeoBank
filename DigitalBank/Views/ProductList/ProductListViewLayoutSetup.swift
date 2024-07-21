@@ -15,8 +15,14 @@ extension ProductListViewController {
         headerLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor,constant: 16).isActive = true
         headerLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 8).isActive = true
         
+        self.view.addSubview(segmentedControlView)
+        segmentedControlView.topAnchor.constraint(equalTo: headerLabel.bottomAnchor,constant: 24).isActive = true
+        segmentedControlView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 24).isActive = true
+        segmentedControlView.trailingAnchor.constraint(equalTo: view.trailingAnchor,constant: -24).isActive = true
+        segmentedControlView.heightAnchor.constraint(equalToConstant: 40).isActive = true
+
         self.view.addSubview(subHeaderLabel)
-        subHeaderLabel.topAnchor.constraint(equalTo: headerLabel.bottomAnchor,constant: 24).isActive = true
+        subHeaderLabel.topAnchor.constraint(equalTo: segmentedControlView.bottomAnchor,constant: 24).isActive = true
         subHeaderLabel.leadingAnchor.constraint(equalTo: headerLabel.leadingAnchor).isActive = true
         
         if let productListTableView = productListTableView {

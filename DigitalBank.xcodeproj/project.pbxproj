@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		255E50A12C4ADAEA00B740A5 /* ProductListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255E50A02C4ADAEA00B740A5 /* ProductListModel.swift */; };
+		255E50A32C4AE99900B740A5 /* ProductListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255E50A22C4AE99900B740A5 /* ProductListRepository.swift */; };
+		255E50A62C4AEFC900B740A5 /* ProductListAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255E50A52C4AEFC900B740A5 /* ProductListAPIService.swift */; };
+		255E50A82C4AF36000B740A5 /* ProductListDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255E50A72C4AF36000B740A5 /* ProductListDataModel.swift */; };
+		255E50AA2C4AF3A200B740A5 /* BaseAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255E50A92C4AF3A200B740A5 /* BaseAPIResponse.swift */; };
+		255E50AC2C4AFADB00B740A5 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255E50AB2C4AFADB00B740A5 /* Strings.swift */; };
 		25A6BEE02C47F47900B31CBC /* CustomChips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A6BEDF2C47F47900B31CBC /* CustomChips.swift */; };
+		25A6BEE32C481CCF00B31CBC /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A6BEE22C481CCF00B31CBC /* ProductListViewModel.swift */; };
 		25BCB8B82C46C0830097EDC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BCB8B72C46C0830097EDC0 /* AppDelegate.swift */; };
 		25BCB8BA2C46C0830097EDC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BCB8B92C46C0830097EDC0 /* SceneDelegate.swift */; };
 		25BCB8BC2C46C0830097EDC0 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BCB8BB2C46C0830097EDC0 /* ProductListViewController.swift */; };
@@ -45,7 +52,14 @@
 /* Begin PBXFileReference section */
 		0E9EFED9C95E3C74FCEA582D /* Pods-DigitalBank-DigitalBankUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalBank-DigitalBankUITests.debug.xcconfig"; path = "Target Support Files/Pods-DigitalBank-DigitalBankUITests/Pods-DigitalBank-DigitalBankUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1D7BB9E4754D3CC03E1BFF60 /* Pods-DigitalBank-DigitalBankUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalBank-DigitalBankUITests.release.xcconfig"; path = "Target Support Files/Pods-DigitalBank-DigitalBankUITests/Pods-DigitalBank-DigitalBankUITests.release.xcconfig"; sourceTree = "<group>"; };
+		255E50A02C4ADAEA00B740A5 /* ProductListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListModel.swift; sourceTree = "<group>"; };
+		255E50A22C4AE99900B740A5 /* ProductListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListRepository.swift; sourceTree = "<group>"; };
+		255E50A52C4AEFC900B740A5 /* ProductListAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListAPIService.swift; sourceTree = "<group>"; };
+		255E50A72C4AF36000B740A5 /* ProductListDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListDataModel.swift; sourceTree = "<group>"; };
+		255E50A92C4AF3A200B740A5 /* BaseAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPIResponse.swift; sourceTree = "<group>"; };
+		255E50AB2C4AFADB00B740A5 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		25A6BEDF2C47F47900B31CBC /* CustomChips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChips.swift; sourceTree = "<group>"; };
+		25A6BEE22C481CCF00B31CBC /* ProductListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModel.swift; sourceTree = "<group>"; };
 		25BCB8B42C46C0830097EDC0 /* DigitalBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25BCB8B72C46C0830097EDC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25BCB8B92C46C0830097EDC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +124,15 @@
 				3038CE8DB9C2F47EDBBCACC2 /* Pods-DigitalBankTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		255E50A42C4AEE7C00B740A5 /* ResponseModels */ = {
+			isa = PBXGroup;
+			children = (
+				255E50A72C4AF36000B740A5 /* ProductListDataModel.swift */,
+				255E50A92C4AF3A200B740A5 /* BaseAPIResponse.swift */,
+			);
+			path = ResponseModels;
 			sourceTree = "<group>";
 		};
 		25A6BEDE2C47F45700B31CBC /* Shared */ = {
@@ -200,6 +223,7 @@
 		25BCB8EB2C46D3E50097EDC0 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				25A6BEE22C481CCF00B31CBC /* ProductListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -207,6 +231,8 @@
 		25BCB8EC2C46D6250097EDC0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				255E50A42C4AEE7C00B740A5 /* ResponseModels */,
+				255E50A02C4ADAEA00B740A5 /* ProductListModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -214,6 +240,7 @@
 		25BCB8ED2C46D62F0097EDC0 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				255E50A22C4AE99900B740A5 /* ProductListRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -221,6 +248,7 @@
 		25BCB8EE2C46D63A0097EDC0 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				255E50A52C4AEFC900B740A5 /* ProductListAPIService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -229,6 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				25BCB8F02C46D9A70097EDC0 /* UIColors.swift */,
+				255E50AB2C4AFADB00B740A5 /* Strings.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -262,6 +291,7 @@
 				25BCB8B02C46C0830097EDC0 /* Sources */,
 				25BCB8B12C46C0830097EDC0 /* Frameworks */,
 				25BCB8B22C46C0830097EDC0 /* Resources */,
+				910EBBB16C1B4F32D13F6B9B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -299,6 +329,7 @@
 				25BCB8D02C46C0880097EDC0 /* Sources */,
 				25BCB8D12C46C0880097EDC0 /* Frameworks */,
 				25BCB8D22C46C0880097EDC0 /* Resources */,
+				514F16337840D3A5C5951736 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -380,6 +411,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		514F16337840D3A5C5951736 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DigitalBank-DigitalBankUITests/Pods-DigitalBank-DigitalBankUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DigitalBank-DigitalBankUITests/Pods-DigitalBank-DigitalBankUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DigitalBank-DigitalBankUITests/Pods-DigitalBank-DigitalBankUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7A225735540DC6B5C91812F5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -424,6 +472,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		910EBBB16C1B4F32D13F6B9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DigitalBank/Pods-DigitalBank-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DigitalBank/Pods-DigitalBank-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DigitalBank/Pods-DigitalBank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A9A719F5586AC196A04AC490 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -454,12 +519,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				25BCB8EA2C46CFB60097EDC0 /* ProductListWireFrame.swift in Sources */,
+				255E50A12C4ADAEA00B740A5 /* ProductListModel.swift in Sources */,
 				25BCB8BC2C46C0830097EDC0 /* ProductListViewController.swift in Sources */,
 				25BCB8B82C46C0830097EDC0 /* AppDelegate.swift in Sources */,
 				25BCB8BA2C46C0830097EDC0 /* SceneDelegate.swift in Sources */,
 				25BCB8F42C46DF940097EDC0 /* ProductListItemTableViewCell.swift in Sources */,
+				255E50AA2C4AF3A200B740A5 /* BaseAPIResponse.swift in Sources */,
+				255E50AC2C4AFADB00B740A5 /* Strings.swift in Sources */,
+				255E50A32C4AE99900B740A5 /* ProductListRepository.swift in Sources */,
+				25A6BEE32C481CCF00B31CBC /* ProductListViewModel.swift in Sources */,
 				25BCB8F62C46E9750097EDC0 /* ProductListViewLayoutSetup.swift in Sources */,
+				255E50A82C4AF36000B740A5 /* ProductListDataModel.swift in Sources */,
 				25A6BEE02C47F47900B31CBC /* CustomChips.swift in Sources */,
+				255E50A62C4AEFC900B740A5 /* ProductListAPIService.swift in Sources */,
 				25BCB8F12C46D9A70097EDC0 /* UIColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

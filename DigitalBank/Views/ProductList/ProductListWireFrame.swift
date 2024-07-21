@@ -9,10 +9,16 @@ import Foundation
 import UIKit
 
 class ProductListWireFrame {
+    private var productListRestAPIService: ProductListRestAPIServiceProtocol
+    private var productListRepository: ProductListRepositoryProtocol
+    private var productListViewModel: ProductListViewModelProtocol
     private var productListViewController: UIViewController
     
     init() {
-        productListViewController = ProductListViewController()
+        productListRestAPIService = ProductListRestAPIService(urlSession: URLSession.shared)
+        productListRepository = ProductListRepository(productListRestAPIService: productListRestAPIService)
+        productListViewModel = ProductListViewModel(productListRepository: productListRepository)
+        productListViewController = ProductListViewController(viewModel: productListViewModel)
     }
     
     func getViewController() -> UIViewController {
