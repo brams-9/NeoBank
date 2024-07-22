@@ -50,7 +50,7 @@ class ChipView: UIView {
             backgroundColor = .infoColor
             layer.cornerRadius = 10
             clipsToBounds = true
-        default:
+        case .TintedChip:
             NSLayoutConstraint.activate([
                 label.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16),
                 label.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16),
@@ -62,6 +62,8 @@ class ChipView: UIView {
             
             layer.cornerRadius = 18
             clipsToBounds = true
+        case .none:
+            break
         }
     }
 }

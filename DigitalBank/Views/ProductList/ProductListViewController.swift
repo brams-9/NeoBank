@@ -191,6 +191,11 @@ extension ProductListViewController: UITableViewDataSource, UITableViewDelegate 
         return viewCell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = ProductDetailViewWireFrame().getViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
             let offsetY = scrollView.contentOffset.y
             let contentHeight = scrollView.contentSize.height
@@ -198,7 +203,7 @@ extension ProductListViewController: UITableViewDataSource, UITableViewDelegate 
 
             if offsetY > contentHeight - height {
                 Task {
-                    guard var productListViewModel = viewModel as? ProductListViewModel else { return }
+                    guard let productListViewModel = viewModel as? ProductListViewModel else { return }
                     if(!productListViewModel.isFetching) {
                         await productListViewModel.loadMoreProductList(productGroupType: selectedProductGroupType)
                     }
