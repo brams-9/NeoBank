@@ -18,7 +18,7 @@ Before you begin, make sure you have the following installed:
    First, clone the repository to your local machine:
 
    ```bash
-   git clone 
+   git clone git@github.com:brams-9/NeoBank.git
    cd DigitalBank
 
 2. **Install CocoaPods Dependencies**
