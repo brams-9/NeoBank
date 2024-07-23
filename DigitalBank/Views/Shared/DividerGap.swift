@@ -14,7 +14,6 @@ class DividerGap: UIView {
         self.heightAnchor.constraint(equalToConstant: height).isActive = true
     }
 
-    // Required initializer for using UIView in Interface Builder (if needed)
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.backgroundColor = .lightGray
